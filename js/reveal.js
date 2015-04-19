@@ -17,6 +17,7 @@
 		module.exports = factory();
 	} else {
 		// Browser globals.
+		Reveal = factory();
 		root.Reveal = factory();
 	}
 }( this, function() {
